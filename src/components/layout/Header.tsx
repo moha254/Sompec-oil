@@ -10,7 +10,7 @@ export const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/img/logo.jpg" alt="Sompec Oil" className="h-12 w-12" />
+            <img src="/img/logo.jpg" alt="Sompec Oil" className="h-12 w-12 rounded-full"/>
             <span className="text-2xl font-bold text-gray-900">Sompec Oil</span>
           </Link>
           
